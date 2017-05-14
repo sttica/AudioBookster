@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">AudioBookster</string>
+    <string name="action_settings">Settings</string>
+    <string name="listenTitle">Listen</string>
+    <string name="ContentsTitle">Contents</string>
+    <string name="DescriptionTitle">Description</string>
+    <string name="booksNew">New</string>
+    <string name="booksRecent">Recent</string>
+
+</resources>

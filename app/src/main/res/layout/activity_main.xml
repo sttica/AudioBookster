@@ -1,0 +1,335 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.audiobookster.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_marginTop="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/colorListen"
+                android:text="@string/booksNew"
+                android:padding="2dp"
+                android:layout_margin="5dp"
+                android:textColor="@color/colorSecondaryText"
+                />
+
+            <HorizontalScrollView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                >
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:id="@+id/Listen1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:background="@drawable/book"
+                        android:layout_margin="@dimen/bookCoverMargin"
+                        >
+
+                        <ImageView
+                            android:layout_width="80dp"
+                            android:layout_height="80dp"
+                            android:scaleType="centerInside"
+                            android:layout_margin="5dp"
+                            app:srcCompat="@drawable/audiobook"/>
+
+                        <TextView
+                            style="@style/listItem"
+                            android:background="@color/colorListen"
+                            android:text="Example 1"
+                            />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/Listen2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:background="@drawable/book"
+                        android:layout_margin="@dimen/bookCoverMargin"
+                        >
+
+                        <ImageView
+                            android:layout_width="80dp"
+                            android:layout_height="80dp"
+                            android:scaleType="centerInside"
+                            android:layout_margin="5dp"
+                            app:srcCompat="@drawable/audiobook"/>
+
+                        <TextView
+                            style="@style/listItem"
+                            android:background="@color/colorListen"
+                            android:text="Example 2"
+                            />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/Listen3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:background="@drawable/book"
+                        android:layout_margin="@dimen/bookCoverMargin"
+                        >
+
+                        <ImageView
+                            android:layout_width="80dp"
+                            android:layout_height="80dp"
+                            android:scaleType="centerInside"
+                            android:layout_margin="5dp"
+                            app:srcCompat="@drawable/audiobook"/>
+
+                        <TextView
+                            style="@style/listItem"
+                            android:background="@color/colorListen"
+                            android:text="Example 3"
+                            />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/Listen4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:background="@drawable/book"
+                        android:layout_margin="@dimen/bookCoverMargin"
+                        >
+
+                        <ImageView
+                            android:layout_width="80dp"
+                            android:layout_height="80dp"
+                            android:scaleType="centerInside"
+                            android:layout_margin="5dp"
+                            app:srcCompat="@drawable/audiobook"/>
+
+                        <TextView
+                            style="@style/listItem"
+                            android:background="@color/colorListen"
+                            android:text="Example 4"
+                            />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/Listen5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:background="@drawable/book"
+                        android:layout_margin="@dimen/bookCoverMargin"
+                        >
+
+                        <ImageView
+                            android:layout_width="80dp"
+                            android:layout_height="80dp"
+                            android:scaleType="centerInside"
+                            android:layout_margin="5dp"
+                            app:srcCompat="@drawable/audiobook"/>
+
+                        <TextView
+                            style="@style/listItem"
+                            android:background="@color/colorListen"
+                            android:text="Example 5"
+                            />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </HorizontalScrollView>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_marginTop="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/colorListen"
+                android:text="@string/booksRecent"
+                android:padding="2dp"
+                android:layout_margin="5dp"
+                android:textColor="@color/colorSecondaryText"
+                />
+
+            <HorizontalScrollView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                >
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:id="@+id/Listen6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:background="@drawable/book"
+                        android:layout_margin="@dimen/bookCoverMargin"
+                        >
+
+                        <ImageView
+                            android:layout_width="80dp"
+                            android:layout_height="80dp"
+                            android:scaleType="centerInside"
+                            android:layout_margin="5dp"
+                            app:srcCompat="@drawable/audiobook"/>
+
+                        <TextView
+                            style="@style/listItem"
+                            android:background="@color/colorListen"
+                            android:text="Example 6"
+                            />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/Listen7"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:background="@drawable/book"
+                        android:layout_margin="@dimen/bookCoverMargin"
+                        >
+
+                        <ImageView
+                            android:layout_width="80dp"
+                            android:layout_height="80dp"
+                            android:scaleType="centerInside"
+                            android:layout_margin="5dp"
+                            app:srcCompat="@drawable/audiobook"/>
+
+                        <TextView
+                            style="@style/listItem"
+                            android:background="@color/colorListen"
+                            android:text="Example 7"
+                            />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/Listen8"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:background="@drawable/book"
+                        android:layout_margin="@dimen/bookCoverMargin"
+                        >
+
+                        <ImageView
+                            android:layout_width="80dp"
+                            android:layout_height="80dp"
+                            android:scaleType="centerInside"
+                            android:layout_margin="5dp"
+                            app:srcCompat="@drawable/audiobook"/>
+
+                        <TextView
+                            style="@style/listItem"
+                            android:background="@color/colorListen"
+                            android:text="Example 8"
+                            />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/Listen9"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:background="@drawable/book"
+                        android:layout_margin="@dimen/bookCoverMargin"
+                        >
+
+                        <ImageView
+                            android:layout_width="80dp"
+                            android:layout_height="80dp"
+                            android:scaleType="centerInside"
+                            android:layout_margin="5dp"
+                            app:srcCompat="@drawable/audiobook"/>
+
+                        <TextView
+                            style="@style/listItem"
+                            android:background="@color/colorListen"
+                            android:text="Example 9"
+                            />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/Listen10"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:background="@drawable/book"
+                        android:layout_margin="@dimen/bookCoverMargin"
+                        >
+
+                        <ImageView
+                            android:layout_width="80dp"
+                            android:layout_height="80dp"
+                            android:scaleType="centerInside"
+                            android:layout_margin="5dp"
+                            app:srcCompat="@drawable/audiobook"/>
+
+                        <TextView
+                            style="@style/listItem"
+                            android:background="@color/colorListen"
+                            android:text="Example 10"
+                            />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </HorizontalScrollView>
+
+        </LinearLayout>
+
+
+        <TextView
+            android:layout_marginTop="50dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Here we see the start screen. By browsing the available audiobooks and clicking on one, the user gets taken to the listen activity (only Examnple 1,2 and 5,6 have listeners)"
+            android:padding="2dp"
+            android:textColor="@color/explanation"
+            />
+
+    </LinearLayout>
+
+
+
+</android.support.design.widget.CoordinatorLayout>

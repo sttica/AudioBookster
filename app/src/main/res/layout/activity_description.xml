@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.audiobookster.Description">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/navigation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/Listen"
+                style="@style/tabs"
+                android:background="@color/colorListen"
+                android:text="@string/listenTitle"
+                />
+
+            <TextView
+                android:id="@+id/Description"
+                style="@style/tabsActive"
+                android:background="@color/colorListen"
+                android:text="@string/DescriptionTitle"
+                />
+
+            <TextView
+                android:id="@+id/Contents"
+                style="@style/tabs"
+                android:background="@color/colorListen"
+                android:text="@string/ContentsTitle"
+                />
+
+        </LinearLayout>
+
+
+        <TextView
+            android:id="@+id/description"
+            android:layout_below="@id/navigation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Written By: Stephen King\n
+Narrated By: Steven Weber\n
+Publisher: Simon &amp; Schuster\n
+Date: January 2016\n
+Duration: 44 hours 52 minutes\n
+\n
+Summary:\n
+A landmark in American literature ( Chicago Sun-Times )-Stephen King's #1 national bestseller about seven adults who return to their hometown to confront a nightmare they had first stumbled on as teenagers...an evil without a name: It . Welcome to Derry, Maine. It's a small city, a place as hauntingly familiar as your own hometown. Only in Derry the haunting is real. They were seven teenagers when they first stumbled upon the horror. Now they are grown-up men and women who have gone out into...Read More\n
+\n
+Genres: Mystery, Thriller &amp; Horror"
+            android:padding="5dp"/>
+
+
+        <TextView
+        android:layout_below="@id/description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Here we see more information about the audiobook."
+        android:textColor="@color/explanation"
+        android:padding="5dp"/>
+
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>
