@@ -45,20 +45,19 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical"
-            android:layout_marginTop="10dp"
-            tools:layout_editor_absoluteY="50dp"
-            tools:layout_editor_absoluteX="0dp">
+            android:layout_marginTop="10dp">
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
-                android:layout_margin="5dp">
+                android:layout_margin="@dimen/contentItemMargin">
 
                 <ImageView
                     android:layout_width="@dimen/dragButtonSize"
                     android:layout_height="@dimen/dragButtonSize"
-                    android:src="@drawable/ic_drag_handle_black_24dp"/>
+                    app:srcCompat="@drawable/ic_drag_handle_black_24dp"
+                    />
 
                 <TextView
                     style="@style/tabsActive"
@@ -71,12 +70,12 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
-                android:layout_margin="5dp">
+                android:layout_margin="@dimen/contentItemMargin">
 
                 <ImageView
                     android:layout_width="@dimen/dragButtonSize"
                     android:layout_height="@dimen/dragButtonSize"
-                    android:src="@drawable/ic_drag_handle_black_24dp"/>
+                    app:srcCompat="@drawable/ic_drag_handle_black_24dp"/>
 
                 <TextView
                     style="@style/tabs"
@@ -89,12 +88,12 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
-                android:layout_margin="5dp">
+                android:layout_margin="@dimen/contentItemMargin">
 
                 <ImageView
                     android:layout_width="@dimen/dragButtonSize"
                     android:layout_height="@dimen/dragButtonSize"
-                    android:src="@drawable/ic_drag_handle_black_24dp"/>
+                    app:srcCompat="@drawable/ic_drag_handle_black_24dp"/>
 
                 <TextView
                     style="@style/tabs"

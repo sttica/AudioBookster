@@ -324,7 +324,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:text="Here we see the start screen. By browsing the available audiobooks and clicking on one, the user gets taken to the listen activity (only Examnple 1,2 and 5,6 have listeners)"
-            android:padding="2dp"
+            android:padding="5dp"
             android:textColor="@color/explanation"
             />
 

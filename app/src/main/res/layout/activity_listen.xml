@@ -46,9 +46,12 @@
                 android:id="@+id/cover"
                 android:layout_centerHorizontal="true"
                 android:layout_centerVertical="true"
-                android:layout_width="240dp"
-                android:layout_height="240dp"
-                android:scaleType="centerInside"
+                android:layout_width="@dimen/listenCoverSize"
+                android:layout_height="@dimen/listenCoverSize"
+                android:layout_marginTop="10dp"
+                android:padding="2dp"
+                android:scaleType="fitCenter"
+                android:background="@drawable/book"
                 app:srcCompat="@drawable/audiobook"/>
 
             <LinearLayout
@@ -86,7 +89,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:text="Here we see the listen activity where the user can control playback, switch to the other activities Description and Contents or he can go back to the start screen to select another audiobook."
-                android:padding="2dp"
+                android:padding="5dp"
                 android:textColor="@color/explanation"/>
 
 

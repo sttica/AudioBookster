@@ -3,4 +3,6 @@
     <dimen name="bookCoverMargin">5dp</dimen>
     <dimen name="buttonSize">50dp</dimen>
     <dimen name="dragButtonSize">25dp</dimen>
+    <dimen name="listenCoverSize">240dp</dimen>
+    <dimen name="contentItemMargin">5dp</dimen>
 </resources>
